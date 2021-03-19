@@ -652,7 +652,7 @@ h1, .h1 {
 .coffee-love {
     position: fixed;
     top: 33%;
-    z-index: 1098;
+    z-index: 1090;
 }
 .coffee-link {
     color: #fff;
@@ -662,7 +662,7 @@ h1, .h1 {
     border-radius: 30px;
     position: relative;
     height: 62px;
-    margin: 40px 0 0 34px;
+    margin: 0 0 0 34px;
 }
 .coffee-link:hover,
 .coffee-link:focus {
