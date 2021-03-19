@@ -652,7 +652,7 @@ h1, .h1 {
 .coffee-love {
     position: fixed;
     top: 33%;
-    z-index: 10000;
+    z-index: 1098;
 }
 .coffee-link {
     color: #fff;

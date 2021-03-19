@@ -318,6 +318,10 @@
         border-radius: 150px;
         padding-top: 20px;
     }
+    #call-back .f-ttl {
+        font-size: 20px;
+        padding-top: 50px;
+    }
     #facebox .form-input {
         margin-bottom: 0;
         width: 200px;
