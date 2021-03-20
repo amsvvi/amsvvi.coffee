@@ -39,7 +39,7 @@
         padding-right: 0;
     }
     .navbar-default .navbar-nav>li>a {
-        padding: 15px 3px;
+        padding: 15px 6px;
     }
     .popup form, .form-end {
         width: 510px;
@@ -47,7 +47,8 @@
         border-radius: 250px;
         padding-top: 150px;
     }
-    .popup form#go {
+    .popup form#go,
+    .popup form#call-back {
         padding-top: 120px;
     }
     .txt-cont-1 h1,
@@ -113,6 +114,7 @@
     }
     .copyr {
         float: left;
+        padding-top: 4px;
     }
     .socseti {
         float: right;
@@ -396,11 +398,13 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    #go .f-ttl {
+    #go .f-ttl,
+    #call-back .f-ttl {
         font-size: 20px;
         padding-top: 35px;
     }
-    #go .form-input {
+    #go .form-input,
+    #call-back .form-input {
         margin-top: 5px;
     }
     .coffee-link {
@@ -452,5 +456,11 @@
     }
     #bl1 {
         margin-top: 150px;
+    }
+}
+@media screen and (max-width: 368px) {
+    .coffee-st img {
+        width: 140px;
+        height: auto;
     }
 }
