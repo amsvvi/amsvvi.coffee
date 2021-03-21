@@ -5,6 +5,21 @@ $(function () {
         $(".coffee-love").css("right", $(".top-container").offset().left);
     })
 
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        $(".coffee-st").attr("id", "owl-slider");
+        $("#owl-slider").owlCarousel({
+            navigation: true,
+            slideSpeed: 300,
+            paginationSpeed: 400,
+            singleItem: true,
+            transitionStyle: "fade",
+            autoPlay: '4000',
+            navigationText: false,
+            pagination: false
+        })
+        $("#bl5").css("min-height", "auto");
+    }
+
 /*фикс меню   
    let header = $('.fixed-top');
     let hederHeight = header.height(); 
@@ -56,6 +71,19 @@ $(function () {
     $(document).bind('reveal.facebox', function () { $("#facebox .phone").mask("+7 (999) 999-9999"); })
 
 })
+
+function carousel() {
+    $("#owl-slider").owlCarousel({
+        navigation: true,
+        slideSpeed: 300,
+        paginationSpeed: 400,
+        singleItem: true,
+        transitionStyle: "fade",
+        autoPlay: '4000',
+        navigationText: false,
+        pagination: false
+    })
+}
 
 function SendCall() {
     var url = 'call.php';

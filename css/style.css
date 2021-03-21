@@ -319,6 +319,10 @@ header {
 h1, .h1 {
     margin: 30px 0;
 }
+.green {
+    color: #46b749;
+    font-family: PFCentroSlabProBold;
+}
 .txt-gr {
     color: #46b749;
     font: 20px PFCentroSlabProLight;
@@ -374,7 +378,8 @@ h1, .h1 {
     content: url(../images/video.png);
 }
 .txt-cont-2 {
-    background: #d9e1e9;
+    background: url(../images/stakan.png) right bottom no-repeat #d9e1e9;
+    background-size: 64% auto;
 }
 .black {
     color: #000!important;
@@ -693,4 +698,29 @@ h1, .h1 {
 .main-cont {
     padding: 0;
     position: relative;
+}
+#owl-slider .line-2 .st-ttl:last-child {
+    display: none;
+}
+div.owl-wrapper-outer {
+    margin-bottom: 0;
+}
+div.owl-controls {
+    margin: 0!important;
+}
+.owl-controls .owl-buttons div.owl-prev {
+    background: url(../images/prev.png) left no-repeat;
+    width: 26px;
+    height: 26px; 
+    position: absolute;
+    top: 120px;
+    left: 0;
+}
+.owl-controls .owl-buttons div.owl-next {
+    background: url(../images/next.png) right no-repeat;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 120px;
+    right: 0; 
 }

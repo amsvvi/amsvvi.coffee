@@ -272,10 +272,8 @@
         padding: 0 15px;
    }
    .v-rol {
-       width: 375px;
-       background: #414144;
-       position: relative;
-       left: -15px;
+       background: #414144bd;
+       margin-left: -15px;
        padding: 0 0 0 15px;
        border-radius: 0 55px 55px 0;
    }
@@ -457,10 +455,11 @@
     #bl1 {
         margin-top: 150px;
     }
-}
-@media screen and (max-width: 368px) {
-    .coffee-st img {
-        width: 140px;
-        height: auto;
+    .txt-cont-5 .h1 {
+        font-size: 32px;
     }
+    .coffee-st {
+        padding-top: 0;
+    }
+    
 }
