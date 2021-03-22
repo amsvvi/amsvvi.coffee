@@ -228,7 +228,20 @@
     #bl1 {
         margin-top: 139px;
     }
-    
+    .rotate {
+        animation-duration: .5s;
+        animation-iteration-count: 1;
+        animation-name: yoyo;
+        animation-timing-function: linear;
+        font-size: 0;
+    }
+    .reverse {
+        transform: rotate(180deg);
+    }
+    @keyframes yoyo {
+        from { transform: rotate(  0deg); }
+        to   { transform: rotate(360deg); }
+    }
 }
 
 @media screen and (min-width: 1280px) {
