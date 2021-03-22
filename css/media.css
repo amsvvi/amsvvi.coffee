@@ -111,7 +111,7 @@
         font-size: 48px;
     }
     .txt-cont-7 {
-        background: url(../images/kruassan.png) right bottom no-repeat  , 
+        background: url(../images/logo_bot.png) center center no-repeat  , 
                     url(../images/back7.jpg);
     }
     .copyr {
@@ -155,7 +155,7 @@
     }
     .coffee-st {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(5, 1fr);
     }
 }
 
@@ -217,7 +217,6 @@
     }
     .line-2 {
         height: 370px;
-        background: url(../images/shadow.png) center bottom no-repeat;
         position: relative;
         margin-top: -50px;
     }
@@ -439,6 +438,21 @@
 @media screen and (max-width: 639px) {
     .coffee-st {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .coffee-st2 {
+        display: block;
+    }
+    .coffee-st2 > div {
+        display: inline-block;
+        width: 18%;
+    }
+    .coffee-st2 img {
+        width: 100%;
+        height: auto;
+    }
+    .coffee-st2 .st-ttl {
+        font-size: 14px;
+        white-space: pre-wrap;
     }
 }
 

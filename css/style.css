@@ -510,6 +510,20 @@ h1, .h1 {
     text-align: center;
     padding-top: 30px;
 }
+.coffee-st .img {
+    position: relative;
+    z-index: 2;
+}
+.coffee-st .img::after {
+    content: url(../images/shadow.png);
+    position: absolute;
+    bottom: -56px;
+    right: -80px;
+    z-index: 1;
+}
+.coffee-st.owl-carousel .img::after {
+    display: none;
+}
 .st-ttl {
     white-space: nowrap;
 }
@@ -583,7 +597,8 @@ h1, .h1 {
     background: url(../images/tech2.png) 75px 35px no-repeat;
 }
 .txt-cont-7 {
-    background: url(../images/back7.jpg);
+    background: url(../images/logo_bot_mob.png) center center no-repeat  , 
+                url(../images/back7.jpg);
 }
 .txt-cont-7 .h1 {
     color: #fefefe;
