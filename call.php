@@ -2,7 +2,7 @@
         $name = $_POST['nm'];
         $tel = $_POST['ph'];
         $from = 'no-reply@yandex.ru';
-        $mailTo='no-reply@yandex.ru';
+        $mailTo='info@coffelove.ru';
         $headers = "From: CoffeeLove <$from>\nReply-To: $from\n";
         $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
         $message="
