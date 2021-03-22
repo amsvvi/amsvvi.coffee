@@ -17,7 +17,9 @@
         width: 590px;
         padding-right: 65px;
     }
-    
+    .h-mail {
+        margin-right: 20px;
+    }
 }
 
 @media (min-width: 640px) and (max-width: 767px) {
@@ -134,11 +136,13 @@
     .coffee-link {
         margin: 160px 0 0 34px;
     }
+    
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .h-col-2 {
-        margin-top: 20px;
+        margin-top: 5px;
+        text-align: right;
     }
     .h-tel {
         padding-bottom: 5px;
@@ -408,6 +412,15 @@
     .coffee-link {
         right: -62px!important;
     }
+    .txt-cont-3 {
+        background: url(../images/stakan3_m.png) right bottom no-repeat #404040;
+    }
+    .txt-cont-2 {
+        background: url(../images/stakan_m.png) center bottom no-repeat #d9e1e9;
+    }
+    .txt-cont-1 {
+        background: url(../images/coffee_m.png) right 180px no-repeat #2d2a29;
+    }
 }
 
 @media screen and (max-width: 639px) {
@@ -437,7 +450,7 @@
 
     }
     .menu-container {
-        top: 83px;
+        top: 90px;
     }
     .col-xs-6 {
         width: 100%;
@@ -458,8 +471,12 @@
     .txt-cont-5 .h1 {
         font-size: 32px;
     }
-    .coffee-st {
-        padding-top: 0;
+    .h-col-2 {
+        font-size: 16px;
+        margin-top: -17px;
     }
-    
+    address {
+        padding-top: 5px;
+        text-align: right;
+    }
 }

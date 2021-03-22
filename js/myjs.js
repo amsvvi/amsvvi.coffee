@@ -7,6 +7,7 @@ $(function () {
 
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         $(".coffee-st").attr("id", "owl-slider");
+        $("body").addClass("mobile");
         $("#owl-slider").owlCarousel({
             navigation: true,
             slideSpeed: 300,

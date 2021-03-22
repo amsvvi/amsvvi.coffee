@@ -208,6 +208,13 @@ address {
     display: inline-block;
     vertical-align: top;
 }
+.h-tel,
+.h-tel:hover,
+.h-tel:focus,
+.h-tel:active {
+    display: block;
+    color: #fff;
+}
 .h-tel-link {
     font-size: 14px;
     border: 2px #46b749 solid;
@@ -226,7 +233,10 @@ address {
     color: #fff;
     background-color: #46b749;
 }
-
+.h-mail, .h-mail:hover, .h-mail:active, .h-mail:visited {
+    display: inline-block;
+    color: #fff;
+}
 header {
     overflow: hidden;
 }
@@ -300,7 +310,6 @@ header {
     padding-bottom: 20px;
 }
 .txt-cont-1 {
-    background: #2d2a29;
     position: relative;
     overflow: hidden;
 }
@@ -376,10 +385,6 @@ h1, .h1 {
 }
 .vid-link:before {
     content: url(../images/video.png);
-}
-.txt-cont-2 {
-    background: url(../images/stakan.png) right bottom no-repeat #d9e1e9;
-    background-size: 64% auto;
 }
 .black {
     color: #000!important;
@@ -643,11 +648,8 @@ h1, .h1 {
 .vk {
     background: url(../images/vk.png);
 }
-.tw {
-    background: url(../images/tw.png);
-}
-.fb {
-    background: url(../images/fb.png);
+.inst {
+    background: url(../images/inst.png);
 }
 .footer {
     overflow: hidden;
@@ -713,7 +715,7 @@ div.owl-controls {
     width: 26px;
     height: 26px; 
     position: absolute;
-    top: 120px;
+    top: 160px;
     left: 0;
 }
 .owl-controls .owl-buttons div.owl-next {
@@ -721,6 +723,9 @@ div.owl-controls {
     width: 26px;
     height: 26px;
     position: absolute;
-    top: 120px;
+    top: 160px;
     right: 0; 
+}
+.mobile .line-1 img {
+    margin-top: 4px;
 }
