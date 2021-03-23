@@ -617,7 +617,7 @@ h1, .h1 {
     background: url(../images/tech2.png) 75px 35px no-repeat;
 }
 .txt-cont-7 {
-    background: url(../images/logo_bot_mob.png) center center no-repeat  , 
+    background: url(../images/logo_bot_mob.png) center center no-repeat, 
                 url(../images/back7.jpg);
 }
 .txt-cont-7 .h1 {
@@ -750,4 +750,13 @@ div.owl-controls {
 }
 .mobile .line-1 img {
     margin-top: 4px;
+}
+a.f-mail, a.f-mail:active, a.f-mail:hover, a.f-mail:visited {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 20px;
+    position: relative;
+    width: auto;
+    height: auto;
+    top: -10px;
 }

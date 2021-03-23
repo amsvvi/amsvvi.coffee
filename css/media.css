@@ -73,10 +73,12 @@
         z-index: 1;
     }
     .txt-cont-2 {
-        background: url(../images/stakan.png) center bottom no-repeat #d9e1e9;
+        background: url(../images/stakan_l.png) center bottom no-repeat, 
+                    url(../images/paket_bg.jpg) center bottom no-repeat #d9e1e9;
     }
     .txt-cont-3 {
-        background: url(../images/stakan3.jpg) right bottom no-repeat #404040;
+        background: url(../images/stakan3.png) right bottom no-repeat,
+        url(../images/logo_bot.png) center center no-repeat #404040;
     }
     .bl3-ttl {
         padding: 63px 0 10px;
@@ -111,7 +113,8 @@
         font-size: 48px;
     }
     .txt-cont-7 {
-        background: url(../images/logo_bot.png) center center no-repeat  , 
+        background: url(../images/kruassan.png) right bottom no-repeat,
+                    url(../images/logo_bot.png) center center no-repeat,  
                     url(../images/back7.jpg);
     }
     .copyr {
@@ -136,7 +139,9 @@
     .coffee-link {
         margin: 160px 0 0 34px;
     }
-    
+    a.f-mail {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -160,7 +165,7 @@
 }
 
 @media screen and (min-width: 992px) {
-    .h-tel {
+    .h-tel, .h-tel:hover, .h-tel:focus, .h-tel:active {
         display: inline-block;
         margin-top: 38px;
     }
@@ -425,7 +430,8 @@
         right: -62px!important;
     }
     .txt-cont-3 {
-        background: url(../images/stakan3_m.png) right bottom no-repeat #404040;
+        background: url(../images/stakan3_m.png) right bottom no-repeat, 
+                    url(../images/logo_bot_mob.png) center center no-repeat #404040;
     }
     .txt-cont-2 {
         background: url(../images/stakan_m.png) center bottom no-repeat #d9e1e9;
