@@ -6,9 +6,9 @@ $(function () {
     })
 
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        $(".coffee-st").attr("id", "owl-slider");
+    //   $(".coffee-st").attr("id", "owl-slider");
         $("body").addClass("mobile");
-        $("#owl-slider").owlCarousel({
+    /*    $("#owl-slider").owlCarousel({
             navigation: true,
             slideSpeed: 300,
             paginationSpeed: 400,
@@ -17,7 +17,7 @@ $(function () {
             autoPlay: '4000',
             navigationText: false,
             pagination: false
-        })
+        }) */
         $("#bl5").css("min-height", "auto");
     }
 
