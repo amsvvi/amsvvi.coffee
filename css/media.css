@@ -138,6 +138,10 @@
     .coffee-link {
         margin: 160px 0 0 34px;
     }
+    a.f-mail, a.f-mail:active, a.f-mail:hover, a.f-mail:visited {
+        font-size: 14px;
+        top: -13px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
