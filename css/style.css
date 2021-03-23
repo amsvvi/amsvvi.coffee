@@ -440,7 +440,7 @@ h1, .h1 {
     background: #404040;
 }
 .bl3-ttl {
-    font: 20px PFCentroSlabProLight;
+    font: 20px PFCentroSlabProBold;
     padding: 4px 0 0 64px;
     position: relative;
 }
