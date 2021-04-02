@@ -353,7 +353,7 @@
         margin-bottom: 30px;
     }
     .coffe_animation_block::before {
-        bottom: 35px;
+        bottom: 0;
     }
     .txt-cont-6::after {
         content: url(../images/avtomat.png);
