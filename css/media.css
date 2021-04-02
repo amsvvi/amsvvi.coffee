@@ -567,9 +567,9 @@
     .coffe_animation_block::after {
         content: "";
         display: block;
-        width: 20px;
+        width: 35px;
         height: 100%;
-        right: 0;
+        right: -15px;
         top: 0;
         position: absolute;
     }
