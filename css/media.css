@@ -298,7 +298,9 @@
         padding: 10px 0 6px 112px;
     }
     .txt-cont-4 {
-        background: url(../images/backg_bg4.png) right bottom 40px no-repeat, 
+        /*background: url(../images/backg_bg4.png) right bottom 40px no-repeat, 
+                    url(../images/zerno.png) 180px 167px no-repeat #c2c0c0;*/
+        background: url(../images/paket.png) right 150px bottom 20px no-repeat, 
                     url(../images/zerno.png) 180px 167px no-repeat #c2c0c0;
     }
     .coffee-st {
