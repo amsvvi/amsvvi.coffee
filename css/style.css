@@ -306,13 +306,14 @@ header {
 .txt-cont {
     min-height: 90vh;
     padding-bottom: 20px;
+    min-height: 100vh;
 }
 .txt-cont-1 {
     position: relative;
     overflow: hidden;
     background: #282828;
     padding-bottom: 40px!important;
-    min-height: 100vh;
+    
 }
 .txt-cont-1 h1, 
 .txt-cont .h1 {

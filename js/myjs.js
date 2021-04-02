@@ -3,8 +3,12 @@ $(function () {
     if ($(window).height() > 900) {
         $(".coffe_animation_block").addClass("big_m");
     }
+    else {
+    //    $(".txt-cont-6").addClass("block_h");
+    //    $(".txt-cont-4").addClass("block_h4");
+    }
 
-    $(".txt-cont").css("min-height", $(window).height() - 140 +"px");
+    $(".txt-cont-7").css("min-height", $(window).height() - 140 +"px");
 
     $(".coffee-love").css("right", $(".top-container").offset().left);
     $(window).resize(function () {

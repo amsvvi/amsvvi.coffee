@@ -110,7 +110,7 @@
     }
     .txt-cont-7 {
         background: url(../images/hand.png) right bottom no-repeat,
-                    url(../images/logo_bot.png) 250px center no-repeat,  
+                    url(../images/logo_bot.png) 395px center no-repeat,  
                     url(../images/back7.jpg);
     }
     .copyr {
@@ -300,8 +300,8 @@
     .txt-cont-4 {
         /*background: url(../images/backg_bg4.png) right bottom 40px no-repeat, 
                     url(../images/zerno.png) 180px 167px no-repeat #c2c0c0;*/
-        background: url(../images/paket.png) right 150px top 140px no-repeat, 
-                    url(../images/zerno.png) 180px 167px no-repeat #c2c0c0;
+        background: url(../images/paket.png) right 150px top 130px no-repeat, 
+                    url(../images/zerno.png) 60px 167px no-repeat #c2c0c0;
     }
     .coffee-st {
         padding: 30px 45px 0;
