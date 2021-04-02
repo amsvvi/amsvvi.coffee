@@ -247,6 +247,7 @@
     }
     .coffe_animation_block.big_m {
         right: -60px;
+        top: -40px;
     }
     /*.coffe_animation_block::before, .coffe_animation_block::after {
         content: "";
