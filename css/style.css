@@ -310,7 +310,8 @@ header {
 .txt-cont-1 {
     position: relative;
     overflow: hidden;
-    background: #2d2a29;
+    background: #282828;
+    padding-bottom: 40px!important;
 }
 .txt-cont-1 h1, 
 .txt-cont .h1 {
@@ -765,4 +766,15 @@ a.f-mail, a.f-mail:active, a.f-mail:hover, a.f-mail:visited {
     max-width: 80vh;
     margin-right: auto;
     margin-left: auto;
+}
+.coffe_animation_block::before {
+    content: url(../images/rotate.png);
+    width: 50px;
+    height: 28px;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    z-index: 2;
+    opacity: 0.4;
+    left: 47%;
 }

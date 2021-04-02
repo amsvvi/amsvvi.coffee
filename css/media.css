@@ -57,7 +57,7 @@
     h1, .h1 {
         margin: 50px 0;
     }
-    .txt-cont-1:after {
+    /*.txt-cont-1:after {
         content: "";
         width: 660px;
         height: 510px;
@@ -67,7 +67,7 @@
         right: 0;
         top:170px;
         z-index: 1;
-    }
+    }*/
     .txt-cont-2 {
         background: url(../images/stakan.png) center bottom no-repeat #d9e1e9;
     }
@@ -168,13 +168,6 @@
     .h-tel-link {
         margin: 30px 0 0 5px;
     }
-    .txt-cont-1:before {
-        content: url(../images/coffee.png);
-        position: absolute;
-        right: 0;
-        top: 100px;
-        z-index: 2;
-    }
     .v-rol {
         position: absolute;
         right: 0;
@@ -242,6 +235,34 @@
         from { transform: rotate(  0deg); }
         to   { transform: rotate(360deg); }
     }
+    .txt-cont-1 {
+        position: relative;
+    }
+    .coffe_animation_block {
+        position: absolute;
+        right: 40px;
+        top: 80px;
+        z-index: 10;
+    }
+    /*.coffe_animation_block::before, .coffe_animation_block::after {
+        content: "";
+        width: 16px;
+        height: 30px;
+        position: absolute;
+        top: 52%;
+        display: block;
+        z-index: 2;
+        opacity: 0.4;
+    }
+    .coffe_animation_block::before {
+        background: url(../images/left_ar.png);
+        left: 15%;
+    }
+    .coffe_animation_block::after {
+        background: url(../images/right_ar.png);
+        right: 15%;
+    }*/
+    
 }
 
 @media screen and (min-width: 1280px) {
@@ -312,7 +333,13 @@
     .coffee-st>div {
         margin-bottom: 40px;
     }
-    
+    .coffe_animation_block {
+        margin-top: -50px;
+        margin-bottom: 30px;
+    }
+    .coffe_animation_block::before {
+        bottom: 35px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -511,5 +538,8 @@
     }
     .min-teh p {
         padding-right: 20px;
+    }
+    .coffe_animation {
+        margin-left: -80px;
     }
 }
