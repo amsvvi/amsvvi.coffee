@@ -564,5 +564,17 @@
     .coffe_animation {
         margin-left: -90px;
     }
-
+    .coffe_animation_block::after {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 100%;
+        background: red;
+        right: 0;
+        top: 0;
+        position: absolute;
+    }
+    .coffe_animation_block {
+        position: relative;
+    }
 }
