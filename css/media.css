@@ -506,4 +506,10 @@
         padding-top: 5px;
         text-align: right;
     }
+    .min-teh {
+        padding-right: 0;
+    }
+    .min-teh p {
+        padding-right: 20px;
+    }
 }
