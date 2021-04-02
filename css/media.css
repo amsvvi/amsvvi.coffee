@@ -216,8 +216,16 @@
         margin-top: -50px;
     }
     .txt-cont-6 {
-        background: url(../images/hand.png) right bottom no-repeat, 
-                    url(../images/bg6.jpg) right bottom no-repeat #d9e1e9;
+        background: url(../images/bg6.jpg) right bottom no-repeat #d9e1e9;
+        position: relative;
+    }
+    .txt-cont-6::after {
+        content: url(../images/avtomat.png);
+        position: absolute;
+        width: 300px;
+        height: 572px;
+        top: 20px;
+        right: 190px;
     }
     #bl1 {
         margin-top: 139px;

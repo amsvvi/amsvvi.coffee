@@ -304,7 +304,7 @@ header {
 
 /***************/
 .txt-cont {
-    min-height: calc(100% - 140px);
+    min-height: 90vh;
     padding-bottom: 20px;
 }
 .txt-cont-1 {
