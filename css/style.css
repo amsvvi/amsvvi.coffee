@@ -339,11 +339,12 @@ h1, .h1 {
 }
 .txt-cont-1 .row>div {
     margin-bottom: 46px; 
+    position: relative;
+    z-index: 11;
 }
 
 .txt-cont-1 .row {
     position: relative;
-    z-index: 11;
 }
 .txt-cont p {
     line-height: 24px;
