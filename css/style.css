@@ -454,7 +454,7 @@ h1, .h1 {
 }
 .txt-cont-4 {
    /* background: url(../images/zerno.png) 180px 167px no-repeat #c2c0c0; */
-   background:  url(../images/paket_mob.png) center 167px no-repeat #c2c0c0;
+   background:  url(../images/paket_mob.png) center bottom 20px no-repeat #c2c0c0;
 }
 .bl4-txt-gr {
     font: 20px PFCentroSlabProMedium;

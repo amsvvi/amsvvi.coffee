@@ -455,9 +455,6 @@
     #sp5::before {
         background: url(../images/sp5.png) center 5px no-repeat;
     }
-    .txt-cont-4 {
-        background-position: center 167px!important;
-    }
     .coffee-st {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
