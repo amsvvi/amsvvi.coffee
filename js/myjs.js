@@ -1,7 +1,7 @@
 $(function () {
 
     if ($(window).height() > 900) {
-        $(".coffe_animation").css("max-width", "70vh");
+        $(".coffe_animation").addClass("big_m");
     }
 
     $(".coffee-love").css("right", $(".top-container").offset().left);
