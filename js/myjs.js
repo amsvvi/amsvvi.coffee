@@ -6,38 +6,9 @@ $(function () {
     })
 
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    //   $(".coffee-st").attr("id", "owl-slider");
         $("body").addClass("mobile");
-    /*    $("#owl-slider").owlCarousel({
-            navigation: true,
-            slideSpeed: 300,
-            paginationSpeed: 400,
-            singleItem: true,
-            transitionStyle: "fade",
-            autoPlay: '4000',
-            navigationText: false,
-            pagination: false
-        }) */
         $("#bl5").css("min-height", "auto");
     }
-
-/*фикс меню   
-   let header = $('.fixed-top');
-    let hederHeight = header.height(); 
-  
-    $(window).scroll(function() {
-        if($(this).scrollTop() == hederHeight) {
-            header.fadeOut(500);
-            console.info(hederHeight)
-        }
-        if($(this).scrollTop() > hederHeight) {
-            header.addClass('fixed').fadeIn(500);
-            $('body').css({'paddingTop': hederHeight+'px' });
-        } else {
-            header.removeClass('fixed');
-            $('body').css({'paddingTop': 0 })
-        }
-    })*/
 
 
     $(".v-rol a").hover(function () {
@@ -70,6 +41,21 @@ $(function () {
 
     $(".phone").mask("+7 (999) 999-9999");
     $(document).bind('reveal.facebox', function () { $("#facebox .phone").mask("+7 (999) 999-9999"); })
+
+    $('.coffe_animation').spritespin({
+        source: SpriteSpin.sourceArray('assets/images/vis180_00{frame}.jpg', { frame: [0,74], digits: 2 }),
+        sense: -1,
+        frame: 0,
+        animate: true,
+        loop: false,
+        stopFrame: 47,
+        wrap: false,
+        plugins: [
+            '360',
+            'drag',
+            'wheel'
+        ]
+    });
 
 })
 
