@@ -4,7 +4,8 @@ $(function () {
         $(".coffe_animation_block").addClass("big_m");
     }
 
-    $(".txt-cont-7").css("min-height", $(window).height() - $(".navbar-fixed-top").height()+"px");
+    console.info($(window).height(), $(".navbar-fixed-top").height(), $(window).height() - $(".navbar-fixed-top").height());
+    $(".txt-cont-7").css("min-height", $(window).height() - 140 +"px");
 
     $(".coffee-love").css("right", $(".top-container").offset().left);
     $(window).resize(function () {
