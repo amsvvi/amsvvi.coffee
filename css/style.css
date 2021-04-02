@@ -343,7 +343,7 @@ h1, .h1 {
 
 .txt-cont-1 .row {
     position: relative;
-    z-index: 3;
+    z-index: 11;
 }
 .txt-cont p {
     line-height: 24px;
