@@ -27,7 +27,7 @@ $(function () {
     $("#navbar").on("click","a", function (event) {
                 event.preventDefault();
                 var id  = $(this).attr('href'),
-                    top = $(id).offset().top-120;
+                    top = $(id).offset().top-139;
                 $('body,html').animate({scrollTop: top}, 1500);
                 $('#navbar').removeClass('show');
             });

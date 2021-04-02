@@ -312,6 +312,7 @@ header {
     overflow: hidden;
     background: #282828;
     padding-bottom: 40px!important;
+    min-height: 100vh!important;
 }
 .txt-cont-1 h1, 
 .txt-cont .h1 {
