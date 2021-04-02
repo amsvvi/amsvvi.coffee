@@ -105,7 +105,7 @@ body {
     color: #fff;
     height: 100%;
     overflow-x: hidden;
-    background-color: #282828;
+    background: url(../images/body_bg.png) #282828;
 }
 
 ul.notstyle {
@@ -759,4 +759,11 @@ a.f-mail, a.f-mail:active, a.f-mail:hover, a.f-mail:visited {
     width: auto;
     height: auto;
     top: -10px;
+}
+.coffe_animation {
+    margin-top: 10vh;
+    max-height: 80vh;
+    max-width: 80vh;
+    margin-right: auto;
+    margin-left: auto;
 }

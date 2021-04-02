@@ -112,8 +112,8 @@
         font-size: 48px;
     }
     .txt-cont-7 {
-        background: url(../images/kruassan.png) right bottom no-repeat,
-                    url(../images/logo_bot.png) center center no-repeat,  
+        background: url(../images/hand.png) right bottom no-repeat,
+                    url(../images/logo_bot.png) 250px center no-repeat,  
                     url(../images/back7.jpg);
     }
     .copyr {
@@ -261,7 +261,7 @@
        padding-bottom: 10px;
    }
    .navbar-default .navbar-nav>li>a {
-        padding: 15px 18px;
+        padding: 15px 26px;
     }
     .ul-bl2 li {
         left: -67px;
@@ -442,21 +442,19 @@
 }
 
 @media screen and (max-width: 639px) {
+    
     .coffee-st {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .coffee-st2 {
         display: block;
     }
-    .coffee-st2 > div {
+    .coffee-st > div {
         display: inline-block;
         width: 18%;
     }
-    .coffee-st2 img {
+    .coffee-st img {
         width: 100%;
         height: auto;
     }
-    .coffee-st2 .st-ttl {
+    .coffee-st .st-ttl {
         font-size: 14px;
         white-space: pre-wrap;
     }
