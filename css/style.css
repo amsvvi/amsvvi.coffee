@@ -304,7 +304,7 @@ header {
 
 /***************/
 .txt-cont {
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     padding-bottom: 20px;
 }
 .txt-cont-1 {
@@ -620,6 +620,7 @@ h1, .h1 {
 .txt-cont-7 {
     background: url(../images/logo_bot_mob.png) center center no-repeat, 
                 url(../images/back7.jpg);
+    min-height: auto;
 }
 .txt-cont-7 .h1 {
     color: #fefefe;
