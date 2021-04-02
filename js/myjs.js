@@ -1,5 +1,7 @@
 $(function () {
 
+    console.info(screen.width);
+
     $(".coffee-love").css("right", $(".top-container").offset().left);
     $(window).resize(function () {
         $(".coffee-love").css("right", $(".top-container").offset().left);
