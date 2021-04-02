@@ -1,6 +1,6 @@
 $(function () {
 
-    console.info(screen.width);
+    console.info(screen.height);
 
     $(".coffee-love").css("right", $(".top-container").offset().left);
     $(window).resize(function () {
