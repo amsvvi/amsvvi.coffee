@@ -224,8 +224,8 @@
         position: absolute;
         width: 300px;
         height: 572px;
-        top: 20px;
-        right: 190px;
+        bottom: 20px;
+        right: 200px;
     }
     #bl1 {
         margin-top: 139px;
