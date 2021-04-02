@@ -245,6 +245,9 @@
         top: 30px;
         z-index: 10;
     }
+    coffe_animation_block.big_m {
+        right: 0;
+    }
     /*.coffe_animation_block::before, .coffe_animation_block::after {
         content: "";
         width: 16px;
