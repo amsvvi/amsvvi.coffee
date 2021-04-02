@@ -453,7 +453,8 @@ h1, .h1 {
     left: 0;
 }
 .txt-cont-4 {
-    background: url(../images/zerno.png) 180px 167px no-repeat #c2c0c0;
+   /* background: url(../images/zerno.png) 180px 167px no-repeat #c2c0c0; */
+   background:  url(../images/paket_mob.png) center 167px no-repeat #c2c0c0;
 }
 .bl4-txt-gr {
     font: 20px PFCentroSlabProMedium;
@@ -619,7 +620,7 @@ h1, .h1 {
     background: url(../images/tech2.png) 75px 35px no-repeat;
 }
 .txt-cont-7 {
-    background: url(../images/logo_bot_mob.png) center center no-repeat, 
+    background: url(../images/logo_bot_mob.png) center 97px no-repeat, 
                 url(../images/back7.jpg);
     min-height: auto;
 }

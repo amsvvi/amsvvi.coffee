@@ -74,7 +74,7 @@
     }
     .txt-cont-3 {
         background: url(../images/stakan3.png) right bottom no-repeat,
-        url(../images/logo_bot_old.png) center center no-repeat #404040;
+        url(../images/logo_bot.png) 150px center no-repeat #404040;
     }
     .bl3-ttl {
         padding: 63px 0 10px;
@@ -475,14 +475,14 @@
         right: -62px!important;
     }
     .txt-cont-3 {
-        background: url(../images/stakan3_m.png) right bottom no-repeat, 
-                    url(../images/logo_bot_mob.png) center center no-repeat #404040;
+        background: url(../images/stakan3_m.png) right bottom -40px no-repeat, 
+                    url(../images/logo_bot_mob.png) center 20px no-repeat #404040;
     }
     .txt-cont-2 {
         background: url(../images/stakan_m.png) center bottom no-repeat #d9e1e9;
     }
     .txt-cont-1 {
-        background: url(../images/coffee_m.png) right 180px no-repeat #282828;
+        background: url(../images/coffee_m.png) right top no-repeat #282828;
     }
 }
 
