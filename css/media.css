@@ -58,23 +58,12 @@
     h1, .h1 {
         margin: 50px 0;
     }
-    /*.txt-cont-1:after {
-        content: "";
-        width: 660px;
-        height: 510px;
-        position: absolute;
-        background: #221f1f;
-        border-radius: 280px 0 0 280px;
-        right: 0;
-        top:170px;
-        z-index: 1;
-    }*/
     .txt-cont-2 {
         background: url(../images/stakan.png) center bottom no-repeat #d9e1e9;
     }
     .txt-cont-3 {
         background: url(../images/stakan3.png) right bottom no-repeat,
-        url(../images/logo_bot.png) 150px center no-repeat #404040;
+        url(../images/logo_bot.png) 133px center no-repeat #404040;
     }
     .bl3-ttl {
         padding: 63px 0 10px;
@@ -298,9 +287,11 @@
         padding: 10px 0 6px 112px;
     }
     .txt-cont-4 {
-        /*background: url(../images/backg_bg4.png) right bottom 40px no-repeat, 
-                    url(../images/zerno.png) 180px 167px no-repeat #c2c0c0;*/
         background: url(../images/paket.png) right 150px top 130px no-repeat, 
+                    url(../images/zerno.png) 60px 167px no-repeat #c2c0c0;
+    }
+    .txt-cont-4.block-h4 {
+        background: url(../images/paket.png) right 150px top 100px no-repeat, 
                     url(../images/zerno.png) 60px 167px no-repeat #c2c0c0;
     }
     .coffee-st {
@@ -473,7 +464,7 @@
     }
     .txt-cont-3 {
         background: url(../images/stakan3_m.png) right bottom -40px no-repeat, 
-                    url(../images/logo_bot_mob.png) center 20px no-repeat #404040;
+                    url(../images/logo_bot_mob.png) center 66px no-repeat #404040;
     }
     .txt-cont-2 {
         background: url(../images/stakan_m.png) center bottom no-repeat #d9e1e9;

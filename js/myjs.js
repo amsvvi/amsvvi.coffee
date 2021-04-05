@@ -5,8 +5,8 @@ $(function () {
         $(".txt-cont").css("min-height", $(window).height() - 140 +"px");
     }
     else {
-    //    $(".txt-cont-6").addClass("block_h");
-    //    $(".txt-cont-4").addClass("block_h4");
+        $(".txt-cont-6").addClass("block-h6");
+        $(".txt-cont-4").addClass("block-h4");
     }
 
     //$(".txt-cont-7").css("min-height", $(window).height() - 140 +"px");

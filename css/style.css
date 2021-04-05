@@ -304,7 +304,6 @@ header {
 
 /***************/
 .txt-cont {
-    min-height: 90vh;
     padding-bottom: 20px;
     min-height: 100vh;
 }
@@ -333,6 +332,9 @@ h1, .h1 {
 .green {
     color: #46b749;
     font-family: PFCentroSlabProBold;
+}
+.green-n {
+    color: #46b749;
 }
 .txt-gr {
     color: #46b749;
@@ -454,9 +456,9 @@ h1, .h1 {
     left: 0;
 }
 .txt-cont-4 {
-   /* background: url(../images/zerno.png) 180px 167px no-repeat #c2c0c0; */
-   background:  url(../images/paket_mob.png) center bottom 20px no-repeat #c2c0c0;
+   background:  url(../images/paket_mob.png) left 72px bottom 20px no-repeat #c2c0c0;
 }
+
 .bl4-txt-gr {
     font: 20px PFCentroSlabProMedium;
     color: #119815;
@@ -594,6 +596,12 @@ h1, .h1 {
 }
 .txt-cont-6 {
     background: url(../images/bg6.jpg) right bottom no-repeat #d9e1e9;
+}
+.txt-cont-6.block-h6 {
+    min-height: 700px;
+}
+.txt-cont-6.block-h6::after {
+    top: 90px;
 }
 .min-teh {
     color: #000;
