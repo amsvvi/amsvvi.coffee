@@ -11,9 +11,9 @@ $(function () {
 
     //$(".txt-cont-7").css("min-height", $(window).height() - 140 +"px");
 
-    $(".coffee-love").css("right", $(".top-container").offset().left - 20);
+    $(".coffee-love").css("right", $(".top-container").offset().left);
     $(window).resize(function () {
-        $(".coffee-love").css("right", $(".top-container").offset().left - 20);
+        $(".coffee-love").css("right", $(".top-container").offset().left);
     })
 
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
