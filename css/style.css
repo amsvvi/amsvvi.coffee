@@ -387,8 +387,11 @@ h1, .h1 {
 .prez-link:hover,
 .vid-link:hover,
 .prez-link:focus,
-.vid-link:focus {
+.vid-link:focus,
+.prez-link:active,
+.vid-link:active {
     color: #46b749;
+    text-decoration: none;
 }
 .prez-link:before,
 .vid-link:before {
