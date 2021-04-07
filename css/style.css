@@ -218,6 +218,10 @@ address {
 .h-tel-link {
     font-size: 14px;
     border: 2px #46b749 solid;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
     border-radius: 20px;
     padding: 8px 15px 10px;
     color: #fff;
@@ -297,7 +301,11 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    transition: all 1s ease; 
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
 }
 
 
@@ -310,7 +318,7 @@ header {
 .txt-cont-1 {
     position: relative;
     overflow: hidden;
-    background: #282828;
+    background: #292929;
     padding-bottom: 40px!important;
     
 }
@@ -363,6 +371,10 @@ h1, .h1 {
     color: #fff;
     background-color: #42403f;
     border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
     display: block;
     padding: 12px 10px 0 78px;
     -moz-transition: color .3s;
@@ -370,6 +382,7 @@ h1, .h1 {
     -webkit-transition: color .3s;
     transition: color .3s;
     position: relative;
+
 }
 .prez-link:hover,
 .vid-link:hover,
@@ -414,6 +427,10 @@ h1, .h1 {
     width: 375px;
     margin-bottom: 12px;
     border-radius: 0 55px 55px 0;
+    -webkit-border-radius: 0 55px 55px 0;
+    -moz-border-radius: 0 55px 55px 0;
+    -ms-border-radius: 0 55px 55px 0;
+    -o-border-radius: 0 55px 55px 0;
 }
 .txt-gr-2:before {
     content: url(../images/cof.png);
@@ -611,6 +628,10 @@ h1, .h1 {
     left: -15px;
     padding: 38px 40px 38px 16px;
     border-radius: 0 200px 200px 0;
+    -webkit-border-radius: 0 200px 200px 0;
+    -moz-border-radius: 0 200px 200px 0;
+    -ms-border-radius: 0 200px 200px 0;
+    -o-border-radius: 0 200px 200px 0;
 }
 .min-teh > div {
     display: inline-block;
@@ -648,6 +669,10 @@ h1, .h1 {
     text-align: right;
     padding-right: 25px;
     border-radius: 0 40px 40px 0;
+    -webkit-border-radius: 0 40px 40px 0;
+    -moz-border-radius: 0 40px 40px 0;
+    -ms-border-radius: 0 40px 40px 0;
+    -o-border-radius: 0 40px 40px 0;
 }
 .ul-bl7 .txt {
     line-height: 24px;
@@ -664,10 +689,14 @@ h1, .h1 {
     font-size: 18px;
     border: 2px #46b749 solid;
     border-radius: 26px;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    -ms-border-radius: 26px;
+    -o-border-radius: 26px;
     background: #46b749;
     padding: 9px 20px 10px;
     color: #fff;
-    text-decoration: none;  
+    text-decoration: none;
     display: inline-block;
     margin: 35px 0 0 79px;
 }
@@ -705,6 +734,10 @@ h1, .h1 {
     background: rgba(91, 90, 90, .85);
     padding: 11px 72px 0 29px;
     border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
     position: relative;
     height: 62px;
     margin: 0 0 0 34px;
@@ -726,11 +759,16 @@ h1, .h1 {
     width: 62px;
     background: url(../images/cofright.png) center no-repeat #2d2a29;
     border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
     border: 1px #636262 solid;
     -moz-transition: .4s;
     -o-transition: .4s;
     -webkit-transition: .4s;
     transition: .4s;
+    
 }
 .main-cont {
     padding: 0;
