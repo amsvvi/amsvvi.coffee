@@ -1,8 +1,8 @@
 ﻿<!DOCTYPE HTML>
-<html>
+<html lang="ru">
     <head>
 
-        <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+        <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
         <meta name=viewport content="width=device-width, initial-scale=1">
         <title>CoffeeLove – cовременная кофейня самообслуживания</title>
         <meta name="description" content="">
@@ -16,7 +16,6 @@
         <link rel="stylesheet" href="css/media.css" type="text/css" media="screen">
         
 
-        <noindex>
             <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
                 <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -24,11 +23,10 @@
             <![endif]-->
             <script src="js/jquery.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
-            <script src="js/facebox.js" type="text/javascript"></script>
+            <script src="js/facebox.js"></script>
             <script src="js/jquery.maskedinput.min.js"></script>
-            <script src='https://unpkg.com/spritespin@x.x.x/release/spritespin.js' type='text/javascript'></script>
+            <script src='js/spritespin.js'></script>
             <script src="js/myjs.js"></script>
-        </noindex>
     </head>
     <body>
 
@@ -42,7 +40,7 @@
                     <div class="h-col-2">
                         <a href="mailto:Info@coffeelove.ru" class="h-mail">Info@coffeelove.ru</a>
                         <a href="tel:+7 (905) 262-41-21" class="h-tel">+7 (905) 262-41-21</a>
-                        <a href="#callback" rel="facebox" class="h-tel-link">Заказать звонок</a>
+                        <a href="#callback-box" rel="facebox" class="h-tel-link">Заказать звонок</a>
                     </div>
                 </header>
             </div>
@@ -76,7 +74,7 @@
         </div>
 
         <div class="coffee-love">
-            <a href="#prezent" rel="facebox" class="coffee-link trans">Хочу стать <br/>КофеЛовом</a>
+            <a href="#prezent-box" rel="facebox" class="coffee-link trans">Хочу стать <br/>КофеЛовом</a>
         </div>
 
         <main class="container txt-cont-1 txt-cont" id="bl1">
@@ -105,7 +103,7 @@
             </div>
             <div class="row">
                 <div class="col-md-3 col-sm-4 col-xs-6">
-                    <a href="#prezent" rel="facebox" class="prez-link">Получить презентацию</a>
+                    <a href="#prezent-box" rel="facebox" class="prez-link">Получить презентацию</a>
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6">
                     <a href="#" title="Видеоролик о нас" class="vid-link">Посмотреть <span class="text-nowrap">3D презентацию</span></a>
@@ -297,7 +295,7 @@
                     <div class="txt">Ваш кофе-пойнт готов к <br/>работе!</div>
                 </li>
             </ul>
-            <a href="#go" rel="facebox" class="go-btn trans">Начать сотрудничество</a>
+            <a href="#go-box" rel="facebox" class="go-btn trans">Начать сотрудничество</a>
             <div class="footer">
                 <div class="copyr">© 2021 Современная кофейня самообслуживания <span class="green">CoffeeLove</span>. Все права защищены</div>
                 <div class="socseti">
@@ -308,7 +306,7 @@
             </div>
         </section>
 
-        <div id="prezent" class="hide">
+        <div id="prezent-box" class="hide">
             <form method="post" name="prezent" id="prezent" onsubmit="SendPrezent(); return false;" enctype="multipart/form-data">
                 <input type="hidden" name="do" value="sendbcall">
                 <div class="f-ttl text-center">Давайте знакомиться</div>
@@ -321,7 +319,7 @@
             </form>
         </div>
 
-        <div id="callback" class="hide">
+        <div id="callback-box" class="hide">
             <form method="post" name="call-back" id="call-back" onsubmit="SendCall(); return false;" enctype="multipart/form-data">
                 <input type="hidden" name="do" value="sendbcall">
                 <div class="f-ttl text-center">Мы Вам перезвоним</div> 
@@ -337,7 +335,7 @@
             </form>
         </div>
 
-        <div id="go" class="hide">
+        <div id="go-box" class="hide">
             <form method="post" name="go" id="go" onsubmit="SendGo(); return false;" enctype="multipart/form-data">
                 <input type="hidden" name="do" value="sendbcall">
                 <div class="f-ttl text-center">Готовы стать партнером <br/>или есть вопросы?</div>
