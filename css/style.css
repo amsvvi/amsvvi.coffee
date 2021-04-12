@@ -436,7 +436,7 @@ h1, .h1 {
     -o-border-radius: 0 55px 55px 0;
 }
 .txt-gr-2:before {
-    content: url(../images/cof.png);
+    content: url(../images/cof.svg);
     position: absolute;
     left: -43px;
     top: 2px;
@@ -760,7 +760,7 @@ h1, .h1 {
     top: 0;
     height: 62px;
     width: 62px;
-    background: url(../images/cofright.png) center no-repeat #2d2a29;
+    background: url(../images/cofright.svg) center no-repeat #2d2a29;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;

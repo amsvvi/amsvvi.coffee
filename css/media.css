@@ -63,23 +63,23 @@
         padding: 63px 0 10px;
     }
     #sp1::before {
-        content: url(../images/sp1.png);
+        content: url(../images/sp1.svg);
         top: 4px;
     }
     #sp2::before {
-        content: url(../images/sp2.png);
+        content: url(../images/sp2.svg);
         top: 4px;
     }
     #sp3::before {
-        content: url(../images/sp3.png);
+        content: url(../images/sp3.svg);
         top: 0;
     }
     #sp4::before {
-        content: url(../images/sp4.png);
+        content: url(../images/sp4.svg);
         top: 9px;
     }
     #sp5::before {
-        content: url(../images/sp5.png);
+        content: url(../images/sp5.svg);
         top: 22px;
     }
     .txt-cont-5 .h1 {
@@ -430,19 +430,19 @@
         width: 64px;
     }
     #sp1::before {
-        background: url(../images/sp1.png) center 0 no-repeat;
+        background: url(../images/sp1.svg) center 0 no-repeat;
     }
     #sp2::before {
-        background: url(../images/sp2.png) center 0 no-repeat;
+        background: url(../images/sp2.svg) center 0 no-repeat;
     }
     #sp3::before {
-        background: url(../images/sp3.png) center 0 no-repeat;
+        background: url(../images/sp3.svg) center 0 no-repeat;
     }
     #sp4::before {
-        background: url(../images/sp4.png) center 0 no-repeat;
+        background: url(../images/sp4.svg) center 0 no-repeat;
     }
     #sp5::before {
-        background: url(../images/sp5.png) center 5px no-repeat;
+        background: url(../images/sp5.svg) center 5px no-repeat;
     }
     .coffee-st {
         display: grid;
