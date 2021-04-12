@@ -496,27 +496,27 @@ h1, .h1 {
     position: absolute;
 }
 #list1::before {
-    content: url(../images/list1.png);
+    content: url(../images/list1.svg);
     left: 15px;
 }
 #list2::before {
-    content: url(../images/list2.png);
+    content: url(../images/list2.svg);
     left: 15px;
 }
 #list3::before {
-    content: url(../images/list3.png);
+    content: url(../images/list3.svg);
     left: 21px;
 }
 #list4::before {
-    content: url(../images/list4.png);
+    content: url(../images/list4.svg);
     left: 20px;
 }
 #list5::before {
-    content: url(../images/list5.png);
+    content: url(../images/list5.svg);
     left: 15px;
 }
 #list6::before {
-    content: url(../images/list6.png);
+    content: url(../images/list6.svg);
     left: 18px;
 }
 .txt-cont-4 .row>div {
@@ -650,7 +650,7 @@ h1, .h1 {
 }
 .tech-2 .tech-s {
     width: 150px;
-    background: url(../images/tech2.png) 75px 35px no-repeat;
+    background: url(../images/tech2.svg) 75px 35px no-repeat;
 }
 .txt-cont-7 {
     background: url(../images/logo_bot_mob.png) center 97px no-repeat, 
