@@ -844,3 +844,8 @@ a.f-mail, a.f-mail:active, a.f-mail:hover, a.f-mail:visited {
     opacity: 0.4;
     left: 47%;
 }
+.txt-cont-4 svg {
+    width: 52px;
+    margin-left: -67px;
+    margin-top: 10px
+}
