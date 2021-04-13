@@ -63,24 +63,25 @@
         padding: 63px 0 10px;
     }
     #sp1::before {
-        content: url(../images/sp1.svg);
-        top: 4px;
+        content: url(../icons/icons-1/icons-01.svg);
+        top: 2px;
     }
     #sp2::before {
-        content: url(../images/sp2.svg);
-        top: 4px;
+        content: url(../icons/icons-1/icons-02.svg);
+        top: -3px;
     }
     #sp3::before {
-        content: url(../images/sp3.svg);
+        content: url(../icons/icons-1/icons-05.svg);
         top: 0;
+        left: -4px;
     }
     #sp4::before {
-        content: url(../images/sp4.svg);
-        top: 9px;
+        content: url(../icons/icons-1/icons-03.svg);
+        top: 5px;
     }
     #sp5::before {
-        content: url(../images/sp5.svg);
-        top: 22px;
+        content: url(../icons/icons-1/icons-04.svg);
+        top: 8px;
     }
     .txt-cont-5 .h1 {
         font-size: 60px;
@@ -430,19 +431,19 @@
         width: 64px;
     }
     #sp1::before {
-        background: url(../images/sp1.svg) center 0 no-repeat;
+        background: url(../icons/icons-1/icons-01.svg) center -5px no-repeat;
     }
     #sp2::before {
-        background: url(../images/sp2.svg) center 0 no-repeat;
+        background: url(../icons/icons-1/icons-02.svg) center -6px no-repeat;
     }
     #sp3::before {
-        background: url(../images/sp3.svg) center 0 no-repeat;
+        background: url(../icons/icons-1/icons-05.svg) center 0 no-repeat;
     }
     #sp4::before {
-        background: url(../images/sp4.svg) center 0 no-repeat;
+        background: url(../icons/icons-1/icons-03.svg) center -5px no-repeat;
     }
     #sp5::before {
-        background: url(../images/sp5.svg) center 5px no-repeat;
+        background: url(../icons/icons-1/icons-04.svg) center -10px no-repeat;
     }
     .coffee-st {
         display: grid;
@@ -469,6 +470,12 @@
     }
     .txt-cont-1 {
         background: url(../images/coffee_m.png) right top no-repeat #282828;
+    }
+    #list3::before {
+        left: 16px;
+    }
+    #list4::before {
+        left: 15px;
     }
 }
 

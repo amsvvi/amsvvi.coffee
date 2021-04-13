@@ -472,6 +472,7 @@ h1, .h1 {
 .bl3-ttl::before {
     content: "";
     height: 63px;
+    width: 50px;
     position: absolute;
     left: 0;
 }
@@ -494,30 +495,36 @@ h1, .h1 {
 }
 .txt-cont-4 .row>div::before {
     position: absolute;
+    width: 52px;
 }
 #list1::before {
-    content: url(../images/list1.svg);
+    content: url(../icons/icons-2/icons-1-01.svg);
     left: 15px;
+    top: -17px;
 }
 #list2::before {
-    content: url(../images/list2.svg);
+    content: url(../icons/icons-2/icons-1-02.svg);
     left: 15px;
+    top: -15px;
 }
 #list3::before {
-    content: url(../images/list3.svg);
-    left: 21px;
+    content: url(../icons/icons-2/icons-1-03.svg);
+    left: 12px;
+    top: -13px;
 }
 #list4::before {
-    content: url(../images/list4.svg);
-    left: 20px;
+    content: url(../icons/icons-2/icons-1-04.svg);
+    left: 10px;
 }
 #list5::before {
-    content: url(../images/list5.svg);
+    content: url(../icons/icons-2/icons-1-05.svg);
     left: 15px;
+    top: -15px;
 }
 #list6::before {
-    content: url(../images/list6.svg);
+    content: url(../icons/icons-2/icons-1-06.svg);
     left: 18px;
+    top: -10px;
 }
 .txt-cont-4 .row>div {
     position: relative;
@@ -646,11 +653,12 @@ h1, .h1 {
 }
 .tech-1 .tech-s {
     width: 205px;
-    background: url(../images/tech1.png) 75px 28px no-repeat;
 }
 .tech-2 .tech-s {
     width: 150px;
-    background: url(../images/tech2.svg) 75px 35px no-repeat;
+}
+.tech-2 .tech-s img {
+    padding-top: 4px;
 }
 .txt-cont-7 {
     background: url(../images/logo_bot_mob.png) center 97px no-repeat, 
