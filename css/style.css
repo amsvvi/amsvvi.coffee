@@ -647,6 +647,9 @@ h1, .h1 {
     display: inline-block;
     margin-bottom: 20px;
 }
+.min-teh img {
+    font-size: 14px;
+}
 .tech-s {
     font: 120px/93px PFCentroSlabProBold;
     color: #48c04b;
@@ -843,9 +846,4 @@ a.f-mail, a.f-mail:active, a.f-mail:hover, a.f-mail:visited {
     z-index: 2;
     opacity: 0.4;
     left: 47%;
-}
-.txt-cont-4 svg {
-    width: 52px;
-    margin-left: -67px;
-    margin-top: 10px
 }
