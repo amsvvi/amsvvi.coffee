@@ -191,6 +191,7 @@ img {
 /*-------------------------*/
 .container {
     width: 100%;
+    overflow-y: hidden;
 }
 address {
     font-size: 13px;
