@@ -1,5 +1,7 @@
 $(function () {
 
+    new WOW().init();
+
     if ($(window).height() > 900) {
         $(".coffe_animation_block").addClass("big_m");
         $(".txt-cont").css("min-height", $(window).height() - 140 +"px");
@@ -8,8 +10,6 @@ $(function () {
         $(".txt-cont-6").addClass("block-h6");
         $(".txt-cont-4").addClass("block-h4");
     }
-
-    //$(".txt-cont-7").css("min-height", $(window).height() - 140 +"px");
 
     $(".coffee-love").css("right", $(".top-container").offset().left);
     $(window).resize(function () {

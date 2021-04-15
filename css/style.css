@@ -208,6 +208,9 @@ address {
     display: inline-block;
     vertical-align: top;
 }
+.h-logo img {
+    margin-left: -2px;
+}
 .h-tel,
 .h-tel:hover,
 .h-tel:focus,
