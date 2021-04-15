@@ -317,7 +317,7 @@ header {
 /***************/
 .txt-cont {
     padding-bottom: 20px;
-    min-height: 100vh;
+    min-height: 755px;
 }
 .txt-cont-1 {
     position: relative;

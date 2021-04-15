@@ -4,7 +4,7 @@ $(function () {
 
     if ($(window).height() > 900) {
         $(".coffe_animation_block").addClass("big_m");
-        $(".txt-cont").css("min-height", $(window).height() - 140 +"px");
+    //    $(".txt-cont").css("min-height", $(window).height() - 140 +"px");
     }
     else {
         $(".txt-cont-6").addClass("block-h6");
